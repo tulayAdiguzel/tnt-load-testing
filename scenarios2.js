@@ -9,4 +9,9 @@ export default function () {
     
     });
 
+    check(res, {
+        'page is start page': (r) => r.body === 'Collection of simple web-pages suitable for load testing.'
+    
+    });
+
 }
